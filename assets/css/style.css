@@ -38,3 +38,88 @@ body {
     align-items: center;
     padding: 10px;
 }
+
+/* logo header */
+.logoHeader {
+    width: 90px;
+}
+
+.logoHeader img {
+    width: 70px;
+    padding: 6px;
+}
+
+/* navigation header */
+.navHeader ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.navHeader ul li {
+    margin: 10px;
+}
+
+.navHeader ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* style input search header */
+.inputHeader {
+    width: 195px;
+    background: #edececae;
+    border: 0;
+    outline: 0;
+    border-radius: 3px;
+    padding: 8px;
+    transition: all 0.5s ease-in-out;
+    direction: rtl;
+}
+
+.inputHeader:focus {
+    outline: 0;
+    border: 0;
+}
+
+.inputHeader::placeholder {
+    font-size: 12px;
+}
+
+.inputHeader:hover {
+    border: 0.2px solid rgba(128, 128, 128, 0.548);
+}
+
+/* container circle login header */
+.loginHeader {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+    background-image: url('/assets/images/person.png');
+    background-size: 22px;
+    background-repeat: no-repeat;
+    background-position: 4px 8px;
+    border: 0;
+    transition: all 0.4s ease-in-out;
+}
+
+.loginHeader:hover {
+    background-color: #adacac35;
+}
+
+/* button download app */
+.btnDwApp {
+    border: 0;
+    width: 98px;
+    padding: 7px;
+    color: #fff;
+    border-radius: 3px;
+    background-color: #0da05b;
+    transition: all 0.4s ease-in-out;
+}
+
+.btnDwApp:hover {
+    background-color: #0b844a;
+}
