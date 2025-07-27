@@ -163,3 +163,55 @@ body {
     background-image: url('/assets/images/iconBazar.png');
     background-position: 5px;
 }
+
+/* icon image game column left */
+.gameImage {
+    background-image: url('/assets/images/game.webp');
+}
+
+/* icon image adamak column left */
+.adamakImage {
+    background-image: url('/assets/images/adamak.webp');
+}
+
+/* icon image home column left */
+.homeImage {
+    background-image: url('/assets/images/home.webp');
+}
+
+.costImage {
+    background-image: url('/assets/images/download-cost.webp');
+}
+
+.supportGmImage {
+    background-image: url('/assets/images/supports-game-creators.webp');
+}
+
+.kidsImage {
+    background-image: url('/assets/images/bazaar-for-kids.webp');
+}
+
+.almasImage {
+    background-image: url('/assets/images/games-with-data.webp');
+}
+
+/* style box content text */
+.contentText {
+    width: 90%;
+    height: 50px;
+    padding: 5px;
+}
+
+/* style parageraph discription */
+.discripBox p {
+    direction: rtl;
+    font-size: 12px;
+    margin: 5px 0 0 0;
+    text-align: justify;
+}
+
+/* style tittle box */
+.tittleBox {
+    text-align: right;
+    font-size: 18px;
+}
