@@ -123,3 +123,43 @@ body {
 .btnDwApp:hover {
     background-color: #0b844a;
 }
+
+/* style main orginally */
+.mainOrginally {
+    width: 100%;
+    height: 412px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+/* style column left and right */
+.columnLeft,
+.columnRight {
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+/* style box */
+.boxColumnLeft {
+    width: 270px;
+    height: 100px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* style box content image */
+.contentImage {
+    width: 70px;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-image: url('/assets/images/iconBazar.png');
+    background-position: 5px;
+}
