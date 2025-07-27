@@ -215,3 +215,9 @@ body {
     text-align: right;
     font-size: 18px;
 }
+
+/* image mobile bazar */
+.imageMobile {
+    padding-top: 20px;
+    height: 100%;
+}
